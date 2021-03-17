@@ -17,12 +17,12 @@
 
     <section id="container_button">
        <div id="button_page_01">
-           <img id="img_button" src="image_firemen/button_img_01.png" alt="img_button"/>;
+           <img id="img_button" src="" alt=""/>
        </div>
     </section>
 
     <footer>
-        <p>blabla</p>
+
     </footer>
 </body>
 </html>
