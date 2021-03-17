@@ -1,4 +1,47 @@
 :root{
     --primary-color : #932a2a;
-    --secondary-color : #ff9c3f;
+    --secondary-color : #eaea29;
+
+    --font-family : arial;
+    --font-size : 1.2em;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+    width: calc(100% - 40px);
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+#container_button{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#button_page_01{
+    width: 200px;
+    height: 200px;
+    background-color: bisque; /* à enlever une fois l'image mise en place*/
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: var(--secondary-color);
 }

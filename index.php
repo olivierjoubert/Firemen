@@ -9,15 +9,21 @@
 </head>
 <body>
     <header>
-        <div id="logo"></div>
-    <header/>
+        <div id="logo_container">
+            <img id="logo" src="" alt=""/>
+            <p>logo</p>
+        </div>
+    </header>
 
-    <section id="container_01">
-       <div id="button_page_01"></div>
+    <section id="container_button">
+       <div id="button_page_01">
+           <img id="img_button" src="image_firemen/button_img_01.png" alt="img_button"/>;
+       </div>
     </section>
 
-        <footer>
-        </footer>
+    <footer>
+        <p>blabla</p>
+    </footer>
 </body>
 </html>
 
