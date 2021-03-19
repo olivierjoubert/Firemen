@@ -1,0 +1,283 @@
+
+:root{
+    --primary-color : #932a2a;
+    --secondary-color : #eaea29;
+
+    --font-family : arial;
+    --font-size : 1.2em;
+}
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--primary-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+nav{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+}
+
+#menu{
+    display : flex;
+    width: 250px;
+    height: 50px;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #181515;
+    border-radius: 5px;
+}
+li{
+    margin: auto;
+}
+li :hover:not(.active){
+    background-color: #5f5b5b;
+    cursor: pointer;
+}
+
+.a-active{
+    background-color: #4a8d08;
+    border-radius: 5px;
+    cursor: pointer;
+}
+a{
+    color: aliceblue;
+}
+#burger{
+    display:none;
+    cursor: pointer;
+}
+#burger-img{
+    width: 50px;
+}
+#logo_container{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+#container_button{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#button_page_01{
+    width: 200px;
+    height: 200px;
+    background-color: bisque; /* à enlever une fois l'image mise en place*/
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+
+@media screen and (max-width: 768px){
+    #menu {
+        display: none;
+    }
+    #burger{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.display-flex{
+    display: flex;
+}
+.catalogue-topbar{
+    display: flex;
+    flex-flow: row nowrap;
+    border: solid 2px grey;
+    align-items: center;
+}
+
+.catalogue-icons{
+    height: 40px;
+    margin: 10px;
+}
+
+.dispo{
+    border-radius: 30px;
+    background-color: white;
+    border-color: grey;
+    height: 60px;
+    padding: 0px 30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.form{
+    margin: 0px 30px;
+}
+
+.dispo-form{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.catalogue-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px blue;
+    align-items: center;
+}
+
+
+.cards{
+    display :flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-items: center;
+
+
+}
+
+
+.card{
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height:500px;
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.carou-left{
+    width: 36px;
+    height:50px;
+    background-image: url("./assets/leftarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+
+}
+
+.carou-right{
+    width: 36px;
+    height:50px;
+    background-image: url("./assets/rightarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+
+.card-noshow{
+    display: none;
+}
+
+.card-img{
+    background-color: white;
+    width:100%;
+    height:50%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card-body{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.Fireman-name{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-spec{
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.card-button{
+    background-color: red;
+
+}
+
+.divbutton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fire-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: darkred;
+    color: white;
+    font-size: large;
+    border-radius: 999px;
+}
+
+.fire-button:hover {
+    background-color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+}
+
+
+label{
+    padding: 5px;
+    margin: 10px;
+}
+
+.champ{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+}
+
+input{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+select {
+    padding: 5px;
+    margin: 10px;
+}
+
+
+
+
+

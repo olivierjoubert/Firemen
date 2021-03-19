@@ -1,0 +1,29 @@
+body{
+    background-color: ghostwhite;
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+    padding: 5px;
+    margin: 10px;
+}
+
+.champ{
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+}
+
+input{
+    margin-left: 300px;
+    margin-top: 40px;
+}
+
+select{
+    padding: 5px;
+    margin: 10px;
+}
