@@ -2,6 +2,18 @@ body{
     background-color: black;
 }
 
+.catalogue-topbar{
+    display: flex;
+    flex-flow: row nowrap;
+    border: solid 2px grey;
+    align-items: center;
+}
+
+.catalogue-icons{
+    height: 40px;
+    margin: 10px;
+}
+
 .dispo{
     border-radius: 30px;
     background-color: white;
@@ -11,6 +23,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 30px;
 }
 
 .form{
@@ -27,25 +40,65 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: solid 2px blue;
+    align-items: center;
 }
+
 
 .cards{
     display :flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 10px;
+    align-items: center;
+
+
 }
 
 .card{
     border-radius: 10px;
     background-color: white;
     width: 300px;
+    height:500px;
     margin:10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+.carou-left{
+    width: 36px;
+    height:50px;
+    background-image: url("./assets/leftarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+
+}
+
+.carou-right{
+    width: 36px;
+    height:50px;
+    background-image: url("./assets/rightarrow.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    height:500px;
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
 
 .card-noshow{
     display: none;
@@ -54,35 +107,60 @@ body{
 .card-img{
     background-color: white;
     width:100%;
-    height:100px;
-    background-repeat: no-repeat;
+    height:50%;
     background-size: cover;
     border-radius: 10px;
 }
 
-.card-title{
-    padding: 10px;
-    display: inline-block;
-    color:black;
+.card-body{
     background-color: white;
+    color: black;
+    padding: 10px;
+    font-size: 12px;
 }
 
 .Fireman-name{
     font-weight: bold;
+    font-size: 14px;
 }
 
 .card-spec{
-    background-color: white;
     list-style-type: none;
-
-}
-
-.card-desc{
-    background-color: white;
-    padding: 10px;
+    font-size: 14px;
 }
 
 .card-button{
     background-color: red;
 
 }
+
+.divbutton{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fire-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: darkred;
+    color: white;
+    font-size: large;
+    border-radius: 999px;
+}
+
+.fire-button:hover {
+    background-color: rgba(255, 0, 0, 1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
