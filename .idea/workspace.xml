@@ -23,6 +23,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pscSlUjyOiIMF4ASi7C8oS0xQ2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -62,6 +63,7 @@
       <workItem from="1616003957131" duration="22000" />
       <workItem from="1616077248714" duration="6680000" />
       <workItem from="1616141920675" duration="867000" />
+      <workItem from="1616143380433" duration="1135000" />
     </task>
     <servers />
   </component>
@@ -79,5 +81,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>
