@@ -9,3 +9,7 @@ burger.addEventListener('click', () => {
 
     }
 )
+
+const arrowLeft = document.getElementsByClassName('arrow-left');
+const arrowRight = document.getElementsByClassName('arrow-right');
+
