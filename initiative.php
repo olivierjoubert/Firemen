@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>INITIATIVE SOLITUDE</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<?php
+require ('header.php')
+?>
 
 <h2>Combattre la solitude, aussi efficacement, que nous combattons le feu </h2>
 <br>
@@ -21,5 +24,8 @@
     Lisez nos bios pour savoir quel pompier pourra vous satisfaire.
 </p>
 <img src="https://picsum.photos/200/300" alt="">
+<?php
+require('footer.php')
+?>
 </body>
 </html>

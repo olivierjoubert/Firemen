@@ -1,8 +1,16 @@
 
+@media screen and (max-width: 768px){
+    #menu {
+        display: none;
+    }
+    #burger{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
 :root{
     --primary-color : #932a2a;
     --secondary-color : #eaea29;
-
     --font-family : arial;
     --font-size : 1.2em;
 }
@@ -15,11 +23,8 @@
 
 body{
     display:flex;
-    min-height: 100vh;
     flex-direction: column;
-    /*justify-content: space-between; Modif de John et Matt*/
     align-items: center;
-    /*padding: 20px;*/
     background-color: var(--primary-color);
     font-family: var(--font-family);
     font-size: var(--font-size);
@@ -68,16 +73,21 @@ a{
     display:none;
     cursor: pointer;
 }
+
 #burger-img{
     width: 50px;
 }
 #logo_container{
     display: flex;
-    align-items: flex-start;
-    margin: 10px;
+    align-items: center;
+    margin: 20px;
 }
 
-#container_button{
+.tagline{
+    margin-left:40px;
+}
+
+#container{
     display: flex;
     width: 100%;
     height: 100%;
@@ -92,9 +102,11 @@ a{
 }
 
 footer {
+    position:absolute;
     height: 80px;
     width: 100%;
     background-color: var(--secondary-color);
+    bottom:0px;
 }
 footer .allFooterContent{
     display: flex;
@@ -107,15 +119,6 @@ footer .allFooterContent{
 }
 
 
-@media screen and (max-width: 768px){
-    #menu {
-        display: none;
-    }
-    #burger{
-        display: flex;
-        justify-content: flex-end;
-    }
-}
 
 .display-flex{
     display: flex;
@@ -328,3 +331,4 @@ select {
     width: 36px;
     margin-left: 5px;
 }
+

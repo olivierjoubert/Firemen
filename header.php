@@ -1,7 +1,7 @@
 <header>
     <div id="logo_container">
-        <img id="logo" src="" alt=""/>
-        <p>logo <br> TAGLINE</p>
+        <div><img id="logo" src="assets/logo-pompiercenter.png" alt="logo des pompiers"/></div>
+        <div class="tagline"><p>Ravivez la flamme ! </p></div>
     </div>
     <nav>
         <div id="burger">
@@ -9,13 +9,13 @@
         </div>
         <ul id="menu">
             <li>
-                <a class="a-active">nav_01</a>
+                <a class="nav-active" href="catalogue.php">Catalogue</a>
             </li>
             <li>
-                <a>nav_02</a>
+                <a class="nav" href="fireStation.php">Caserne</a>
             </li>
             <li>
-                <a>nav_03</a>
+                <a class="nav" href="initiative.php">Initiative</a>
             </li>
         </ul>
     </nav>

@@ -23,6 +23,10 @@ $ourFireFighters = [
 
 
 <body>
+<?php
+require ('header.php')
+?>
+
 <div class ="catalogue-container">
     <div class="catalogue-topbar">
         <div></div>
@@ -71,8 +75,11 @@ $ourFireFighters = [
 
 </div>
 
-<script src="catalogue.js"></script>
-<script src="testCarou.js"></script>
+<?php
+require('footer.php')
+?>
+
+<script src="src/catalogue.js"></script>
 </body>
 
 

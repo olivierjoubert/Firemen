@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>CASERNE</title>
-    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<?php
+require ('header.php')
+?>
+
 <h2>Caserne des pompiers de la Benauge</h2>
 <br>
 <img src="https://picsum.photos/200/300" alt="">
@@ -38,5 +42,8 @@
     Rendez-vous le 14 juillet : le bal des pompiers de la caserne est à couper le souffle, une soirée sulfureuse où
     les uniformes tombent, les échelles se déploient et les pomplards allument le feu !!!!!
 </p>
+<?php
+require('footer.php')
+?>
 </body>
 </html>

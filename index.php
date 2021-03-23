@@ -11,7 +11,7 @@
         <?php
         require ('header.php')
         ?>
-    <section id="container_button">
+    <section id="container">
         <div id="button_page_01">
             <img id="img_button" src="" alt=""/>
         </div>
