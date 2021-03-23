@@ -17,9 +17,9 @@
         </div>
     </section>
 
-    <footer>
-
-    </footer>
+        <?php
+        require('footer.php')
+        ?>
     <script src="./script.js"></script>
     </body>
 
