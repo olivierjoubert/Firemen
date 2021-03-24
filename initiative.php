@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>INITIATIVE SOLITUDE</title>
-    <link rel="stylesheet" href="style.css" />
-</head>
+
 <body>
 <?php
 require ('header.php')
 ?>
-
+<div class="main-container">
 <h2>Combattre la solitude, aussi efficacement, que nous combattons le feu </h2>
 <br>
 <img src="https://picsum.photos/200/300" alt="">
@@ -24,8 +19,9 @@ require ('header.php')
     Lisez nos bios pour savoir quel pompier pourra vous satisfaire.
 </p>
 <img src="https://picsum.photos/200/300" alt="">
-<?php
-require('footer.php')
-?>
+
+    <?php require('footer.php') ?>
+</div>
+
 </body>
 </html>

@@ -1,13 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carroussel</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-
-
 <?php
 $bio = 'Bio : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet interdum risus, tempus fermentum turpis. Suspendisse potenti. Fusce vestibulum feugiat dui, in condimentum sapien eleifend sed. Nunc aliquam odio ac porttitor gravida. Curabitur id neque ac nibh tempor vulputate. Donec egestas arcu nec semper convallis.';
 
@@ -27,7 +17,7 @@ $ourFireFighters = [
 require ('header.php')
 ?>
 
-<div class ="catalogue-container">
+<div class ="main-container">
     <div class="catalogue-topbar">
         <div></div>
         <div class="dispo">
@@ -72,12 +62,10 @@ require ('header.php')
         <div class="carou-right">
         </div>
     </div>
-
+    <?php require('footer.php') ?>
 </div>
 
-<?php
-require('footer.php')
-?>
+
 
 <script src="src/catalogue.js"></script>
 </body>
