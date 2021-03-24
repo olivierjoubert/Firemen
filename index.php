@@ -1,6 +1,6 @@
 
+
     <body>
-<<<<<<< HEAD
         <?php
         require ('header.php')
         ?>
@@ -14,8 +14,7 @@
         require('footer.php')
         ?>
     <script></script>
-
-    <?php require ('header.php') ?>
+    <?php require ('footer.php') ?>
     <div class="main-container">
         <div class="left-land"></div>
         <div class="right-land"></div>
