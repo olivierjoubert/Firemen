@@ -4,9 +4,7 @@
     <p style="color: var(--secondary-color)">Ravivez votre flamme</p>
     </div>
     <nav>
-        <div id="burger">
-            <img id="burger-img" src="./image_firemen/burger.png" alt="burger"/>
-        </div>
+
         <ul class="menu">
             <li>
                 <a class="nav-active" href="catalogue.php">Catalogue</a>
@@ -18,5 +16,8 @@
                 <a class="nav" href="initiative.php">Initiative</a>
             </li>
         </ul>
+        <div id="burger">
+            <img id="burger-img" src="./image_firemen/burger.png" alt="burger"/>
+        </div>
     </nav>
 </header>

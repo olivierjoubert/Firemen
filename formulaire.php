@@ -1,3 +1,5 @@
+<?php var_dump($_GET["id"])?>
+
 <!DOCTYPE html>
 <?php
 require('head.php')
