@@ -36,8 +36,8 @@ require ('header.php')
     Rendez-vous le 14 juillet : le bal des pompiers de la caserne est à couper le souffle, une soirée sulfureuse où
     les uniformes tombent, les échelles se déploient et les pomplards allument le feu !!!!!
 </p>
-    <?php require('footer.php') ?>
-</div>
 
+</div>
+<?php require('footer.php') ?>
 </body>
 </html>

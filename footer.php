@@ -19,4 +19,5 @@
 
         <div class="copyright"> © Copyright<br> Ravive ta flamme 2021</div>
 </footer>
+</div>
 

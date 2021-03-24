@@ -5,9 +5,9 @@
         <div class="left-land"></div>
         <div class="right-land"></div>
 
-        <?php require('footer.php') ?>
-    </div>
 
+    </div>
+    <?php require('footer.php') ?>
 
     <script src="./script.js"></script>
     </body>

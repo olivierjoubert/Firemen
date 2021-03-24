@@ -20,8 +20,8 @@ require ('header.php')
 </p>
 <img src="https://picsum.photos/200/300" alt="">
 
-    <?php require('footer.php') ?>
-</div>
 
+</div>
+<?php require('footer.php') ?>
 </body>
 </html>

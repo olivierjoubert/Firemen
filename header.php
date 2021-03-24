@@ -11,6 +11,9 @@
 
 <div class="logo_container">
 </div>
+
+<div class="whole_page">
+
 <header>
 
 
