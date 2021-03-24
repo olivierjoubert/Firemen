@@ -30,6 +30,7 @@ require ('header.php')
         </div>
         <div><img  id="to-carou" class="catalogue-icons" src="assets/carousel.png" alt="Carousel"></div>
         <div><img  id="to-mosaic" class="catalogue-icons" src="assets/mosaic.png" alt="Mosaic"></div>
+        <div><a href="catalogueFemme.php"></a><img src="assets/women.png" alt="womanButton"></div></div>
     </div>
 
 
