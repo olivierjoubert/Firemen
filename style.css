@@ -407,3 +407,27 @@ select {
     margin-left: 5px;
 }
 
+
+/* Debut caserne, initiative ================================= */
+
+.conteneur-flexible-image-et-texte{
+    display: flex;
+}
+.element-flexible-image-et-texte{
+    display: flex;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.image-des-pompiers-de-image-et-texte{
+    height: 180px;
+    width: 200px;
+    margin: 20px;
+}
+.texte-des-pompiers-de-image-et-texte{
+    margin: 20px;
+}
+
+.titre-des-image-des-pompiers-de-image-et-texte{
+    margin: 20px;
+}
