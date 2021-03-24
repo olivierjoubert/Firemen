@@ -13,7 +13,7 @@
         <div class="aboutUs-footer">
             <h2>Qui sommes nous ?</h2>
             <ul class="footerContentItems">
-                <li><a href="#">Notre équipe</a></li>
+                <li><a href="ourTeam.php">Notre équipe</a></li>
                 <li><a href="#">La Caserne Stalingrad</a></li>
                 <li><a href="#">L'association Caritative</a></li>
             </ul>

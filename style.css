@@ -316,9 +316,20 @@ select {
     display: flex;
     align-items: center;
 }
+.arrow-left :hover{
+    cursor: pointer;
+}
 .arrow-right{
     display: flex;
     align-items: center;
+    background-image: url("assets/rightarrow.png");
+    height: 50px;
+    width: 50px;
+}
+
+.arrow-right :hover{
+    cursor: pointer;
+    background-image: url("assets/hover-right-arrow.png");
 }
 
 .arrow-left img{
@@ -331,4 +342,3 @@ select {
     width: 36px;
     margin-left: 5px;
 }
-
