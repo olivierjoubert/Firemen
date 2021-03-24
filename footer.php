@@ -1,23 +1,22 @@
 
 
 <footer>
-    <div class="allFooterContent">
-        <div class="features-website">
+
+        <!--<div class="features-website">
             <h2>Fonctionnalités du site</h2>
             <ul class="footerContentItems">
                 <li><a href="#">Alerte</a></li>
                 <li><a href="#">Catalogue</a></li>
                 <li><a href="#">Carousel</a></li>
             </ul>
-        </div>
-        <div class="aboutUs-footer">
-            <h2>Qui sommes nous ?</h2>
-            <ul class="footerContentItems">
-                <li><a href="#">Notre équipe</a></li>
-                <li><a href="#">La Caserne Stalingrad</a></li>
-                <li><a href="#">L'association Caritative</a></li>
+        </div>-->
+        <div class="left-footer"></div>
+
+            <ul class="footer-links">
+                <li class="footer-link"><a href="#">L'équipe</a></li>
+                <li class="footer-link"><a href="#">Le projet</a></li>
             </ul>
-        </div>
-    </div>
+
+        <div class="copyright"> © Copyright<br> Ravive ta flamme 2021</div>
 </footer>
 
