@@ -8,6 +8,9 @@
     <title>Fireman</title>
 </head>
 <body>
+<?php
+require ('header.php')
+?>
 <h1>Notre équipe au complet</h1>
 <!--<p>Illorum ab nostra erga sint fiat ipse amicos sunt benevolentia quanti tertiam erga ferri nostra
     nosmet nosmet amicos nos illorum termini alteram eodem termini probo modo quanti nullam video in.</p>-->
@@ -49,7 +52,7 @@ $ourMemberArray = [
 ?>
 <div class="carContainer">
     <div class="arrow-left">
-        <img src="assets/leftarrow.png" alt="Arrow Left" />
+        <img src="assets/left-arrow-transparent.png" alt="Arrow Left" />
     </div>
     <div class="memberCard">
         <img class="pictureMember" <?php echo $ourMemberArray[3]['pictureMemberArray'] ?> alt="Matthieu">
@@ -57,8 +60,11 @@ $ourMemberArray = [
         <p><?php echo $ourMemberArray[3]['bioMemberArray']?></p>
     </div>
     <div class="arrow-right">
-        <img src="assets/rightarrow.png" alt="Arrow Right"/>
+        <img src="assets/right-arrow-transparent.png" alt="arrow right"/>
     </div>
 </div>
+<?php
+require ('footer.php')
+?>
 <script src="./script.js"></script>
 </body>
