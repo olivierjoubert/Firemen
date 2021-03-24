@@ -62,9 +62,9 @@ require ('header.php')
         <div class="carou-right">
         </div>
     </div>
-    <?php require('footer.php') ?>
-</div>
 
+</div>
+<?php require('footer.php') ?>
 
 
 <script src="src/catalogue.js"></script>
