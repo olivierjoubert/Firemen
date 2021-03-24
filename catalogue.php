@@ -5,7 +5,6 @@ require('head.php')
 ?>
     <body>
     <div class="whole_page">
-
         <?php
             $bio = 'Bio : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet interdum risus, tempus fermentum turpis. Suspendisse potenti. Fusce vestibulum feugiat dui, in condimentum sapien eleifend sed. Nunc aliquam odio ac porttitor gravida. Curabitur id neque ac nibh tempor vulputate. Donec egestas arcu nec semper convallis.';
 
@@ -18,7 +17,6 @@ require('head.php')
             ];
     require ('header.php')
     ?>
-
         <div class ="main-container">
         <div class="catalogue-topbar">
             <div></div>
@@ -33,7 +31,10 @@ require('head.php')
             <div><img  id="to-carou" class="catalogue-icons" src="assets/carousel.png" alt="Carousel"></div>
             <div><img  id="to-mosaic" class="catalogue-icons" src="assets/mosaic.png" alt="Mosaic"></div>
         </div>
-
+        <div><img  id="to-carou" class="catalogue-icons" src="assets/carousel.png" alt="Carousel"></div>
+        <div><img  id="to-mosaic" class="catalogue-icons" src="assets/mosaic.png" alt="Mosaic"></div>
+        <div><a href="catalogueFemme.php"></a><img src="assets/women.png" alt="womanButton"></div></div>
+    </div>
 
         <div class = "cards">
             <div class="carou-left">
