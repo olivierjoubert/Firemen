@@ -27,6 +27,8 @@ body{
 
 a:hover{
     cursor:pointer;
+    font-size: 1.5em;
+    transition-duration: 0.4s;
 }
 
 .whole_page{
@@ -66,9 +68,6 @@ footer {
     color:var(--primary-color);
 }
 
-
-
-
 nav{
     display: flex;
     justify-content: flex-end;
@@ -88,10 +87,7 @@ nav{
     margin: 20px 20px;
 }
 
-.menu li :hover:not(.active){
-    background-color: #5f5b5b;
-    cursor: pointer;
-}
+
 
 a, a:visited{
     color: var(--color-on-dark);
@@ -135,10 +131,6 @@ a, a:visited{
     justify-content: flex-end;
 }
 
-
-
-
-
 @media screen and (max-width: 768px){
     .menu {
         display: none;
@@ -146,6 +138,11 @@ a, a:visited{
     #burger{
         display: flex;
         justify-content: flex-end;
+    }
+    .tagline{
+        text-align: center;
+        width: 100px;
+        margin-left:20px;
     }
 }
 
