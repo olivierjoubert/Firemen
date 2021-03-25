@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129db83f-604d-43e3-a7f2-3a475d5949ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contactCommunicated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formulaireRecu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalogueFemme.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogueFemme.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formulaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -15,6 +15,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,7 +92,10 @@
       <workItem from="1616575813040" duration="6500000" />
       <workItem from="1616598592500" duration="733000" />
       <workItem from="1616606487640" duration="47000" />
-      <workItem from="1616656485246" duration="2535000" />
+      <workItem from="1616656485246" duration="2917000" />
+      <workItem from="1616661814469" duration="759000" />
+      <workItem from="1616662801941" duration="7973000" />
+      <workItem from="1616676491592" duration="3681000" />
     </task>
     <servers />
   </component>
