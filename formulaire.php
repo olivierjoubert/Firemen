@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+$titlePage = 'Formulaire de contact';
 require('head.php')
 ?>
 <html lang="fr">

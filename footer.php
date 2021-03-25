@@ -1,14 +1,4 @@
 <footer>
-
-        <!--<div class="features-website">
-            <h2>Fonctionnalités du site</h2>
-            <ul class="footerContentItems">
-                <li><a href="#">Alerte</a></li>
-                <li><a href="#">Catalogue</a></li>
-                <li><a href="#">Carousel</a></li>
-            </ul>
-
-        </div>-->
         <div class="left-footer"></div>
 
             <ul class="footer-links">

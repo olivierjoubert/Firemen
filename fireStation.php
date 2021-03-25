@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+$titlePage = 'Découvrez notre caserne';
 require('head.php')
 ?>
 <html lang="fr">

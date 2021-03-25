@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php
+$titlePage = 'Notre équipe';
 require('head.php')
 ?>
 <body>
