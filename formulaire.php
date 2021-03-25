@@ -27,7 +27,8 @@ require('head.php')
             </h3>
             <div class="container-flex-row">
                 <div class="flex-col-02">
-                    <img src=" <?= $_GET( ['picture'] ) ?>" alt="choix_picture"/>
+
+                    <img src="<?php if (isset($_GET['id2'])) {echo ($_GET['id2']);}?>" alt="choix_picture"/>
                 </div>
                 <div class="flex-col-01">
                     <div class="container-form-nom-prénom">
