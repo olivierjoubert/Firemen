@@ -68,10 +68,11 @@ require('head.php')
                 </div>
             </form>
         </div>
+        <?php
+        require('footer.php')
+        ?>
     </div>
-    <?php
-    require('footer.php')
-    ?>
+
 <script type="text/javascript" src="src/formulaireRecu.js"></script>
 </body>
 </html>
