@@ -20,7 +20,6 @@ require('head.php')
             }
             ?>
         </h3>
-
         <h3 class="texte-du-formulaire dernière-demande-formulaire à-mettre-en-jaune">Indiquez nous où envoyer les
             secours</h3>
         <form class="formulaire-de-contact" action="" method="get">
@@ -35,6 +34,7 @@ require('head.php')
 
             </div>
             <div class="form-cell">
+
                 <?php
                 if (isset($_GET['id'])) {
                 ?>
@@ -48,6 +48,7 @@ require('head.php')
                         <option value="action3">JE SUIS EN FEU...</option>
                     </select>
                 </div>
+
             </div>
             <?php
             } else {
