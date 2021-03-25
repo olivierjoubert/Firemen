@@ -260,6 +260,7 @@ nav{
 .catalogue-icon{
     height: 40px;
     margin: 0 10px;
+    cursor:pointer;
 }
 
 .catalogue-icons{
