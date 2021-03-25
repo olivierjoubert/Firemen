@@ -17,7 +17,7 @@
             </li>
         </ul>
         <div id="burger">
-            <img id="burger-img" src="assets/burger.git chsvg" alt="burger"/>
+            <img id="burger-img" src="assets/burger.svg" alt="burger"/>
         </div>
     </nav>
 </header>
