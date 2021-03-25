@@ -19,5 +19,6 @@
 
         <div class="copyright"> © Copyright<br> Ravive ta flamme 2021</div>
 </footer>
+<script src="src/menu-burger.js"></script>
 
 
