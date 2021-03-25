@@ -15,15 +15,15 @@ require('head.php')
         </h3>
         <h3 class="texte-du-formulaire dernière-demande-formulaire">Indiquez lui où se retrouver et pour quoi faire?</h3>
         <form class = "formulaire-de-contact" action="" method="get">
-            <div>
+            <div class="form-cell">
                 <label for="identity">Votre nom :</label>
                 <input type="text" id="identity" name="identity" class="champ">
             </div>
-            <div>
+            <div class="form-cell">
                 <label for="address">Votre adresse:</label>
                 <input type="text" id="address" name="address" class="champ">
             </div>
-            <div>
+            <div class="form-cell">
                 <label for="action">Quel type d'intervention désirez-vous?</label>
                 <select name="action" id="action">
                     <option value="action1">PARLER DE LA PLUIE ET DU BEAU TEMPS</option>
