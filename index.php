@@ -16,11 +16,11 @@
     ?>
     <div class="main-container-index">
 
-        <div class="main-divs main-div-right">
-            <!--<a href="formulaire.php">-->
+        <div class="main-divs main-div-left">
+            <a href="formulaire.php">
             <p class="titles">Une urgence ?</p>
             <img id="clipped-left" src="https://cdn.pixabay.com/photo/2020/03/08/22/44/fire-4913958_960_720.jpg" alt="">
-            <!--            </a>-->
+            </a>
         </div>
         <div class="div-logo">
             <img id="clipped-logo" src="assets/adoptePompier.png" alt="">
