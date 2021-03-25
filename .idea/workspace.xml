@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129db83f-604d-43e3-a7f2-3a475d5949ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fireStation.php" beforeDir="false" afterPath="$PROJECT_DIR$/fireStation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/formulaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initiative.php" beforeDir="false" afterPath="$PROJECT_DIR$/initiative.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ourTeam.php" beforeDir="false" afterPath="$PROJECT_DIR$/ourTeam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogueFemme.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogueFemme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formulaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +39,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +83,9 @@
       <workItem from="1616525574676" duration="274000" />
       <workItem from="1616573913799" duration="1620000" />
       <workItem from="1616575813040" duration="6500000" />
+      <workItem from="1616598592500" duration="733000" />
+      <workItem from="1616606487640" duration="47000" />
+      <workItem from="1616656485246" duration="2535000" />
     </task>
     <servers />
   </component>

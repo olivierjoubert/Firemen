@@ -44,7 +44,7 @@
                             <span class="people-name">Bio : </span><?= $people['bio']; ?>
                                 <div class="divbutton">
                                     <form method="get" action="formulaire.php">
-                                    <input type="hidden" name="id" value="<?= $people['id'] ?>">
+                                    <input type="hidden" name="id" value="<?= $people['name'] ?>">
                                         <button class="fire-button">Réservez moi</button>
                                     </form>
                                 </div>

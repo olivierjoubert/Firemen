@@ -431,3 +431,27 @@ select {
 .titre-des-image-des-pompiers-de-image-et-texte{
     margin: 20px;
 }
+
+/* Debut formulaire ================================= */
+
+.formulaire-de-contact{
+    display: flex;
+    flex-direction: column ;
+}
+
+.contact-button{
+    background-color: #eaea29;
+    font-size: x-large;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.texte-du-formulaire{
+    margin: 20px;
+}
+
+.dernière-demande-formulaire {
+    margin-bottom: 60px;
+}
