@@ -1,9 +1,8 @@
 
 <header>
-    <div class="logo_container"></div>
-    <div class="tagline">
-    <p style="color: var(--secondary-color)">Ravivez votre flamme</p>
-    </div>
+    <a href="index.php" id="link_index">
+        <div class="logo_container"></div>
+    </a>
     <nav>
         <ul class="menu">
             <li>
@@ -21,3 +20,4 @@
         </div>
     </nav>
 </header>
+<script src="src/menu-burger.js"></script>
