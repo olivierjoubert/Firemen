@@ -24,7 +24,8 @@
 
 
         <div class = "cards">
-            <div class="carou-left">
+            <div class="carou-left arrow-left">
+                <img src="assets/left-arrow-transparent.png" alt="Arrow Left" />
             </div>
 
             <?php foreach ($peoples as $people) : ?>
@@ -50,7 +51,8 @@
                     </div>
                 </div>
             <?php endforeach; ?>
-            <div class="carou-right">
+            <div class="carou-right arrow-right">
+                <img src="assets/right-arrow-transparent.png" alt="arrow right"/>
             </div>
         </div>
 

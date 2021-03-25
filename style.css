@@ -317,7 +317,7 @@ nav{
 .carou-left{
     width: 36px;
     height:50px;
-    background-image: url("./assets/leftarrow.png");
+    /*background-image: url("./assets/leftarrow.png");*/
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 50px;
@@ -326,7 +326,7 @@ nav{
 .carou-right{
     width: 36px;
     height:50px;
-    background-image: url("./assets/rightarrow.png");
+    /*background-image: url("./assets/rightarrow.png");*/
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 50px;
