@@ -11,7 +11,6 @@
             <div class="dispo">
                 <label for="start">Besoin de compagnie pour quand ? : </label>
                 <form class="dispo-form">
-                    <i class="fas fa-ad"></i>
                     <input type="date" id="dispo-calendar" class="dispo-calendar form" name="dispo-calendar">
                     <input type="button" class ="form" value="Soumettre" onclick="date()">
                 </form>

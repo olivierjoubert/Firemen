@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="129db83f-604d-43e3-a7f2-3a475d5949ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contactCommunicated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/formulaireRecu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hover-left-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/hover-right-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/iconburger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/left-arrow-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/left-arrow-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/right-arrow-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/right-arrow-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/right-arrow-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github.pub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/teamMember.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/rightarrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/rightarrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogue.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalogueFemme.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalogueFemme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/formulaire.php" beforeDir="false" afterPath="$PROJECT_DIR$/formulaire.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image_firemen/burger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ourTeam.php" beforeDir="false" afterPath="$PROJECT_DIR$/ourTeam.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +114,7 @@
       <workItem from="1616656485246" duration="2917000" />
       <workItem from="1616661814469" duration="759000" />
       <workItem from="1616662801941" duration="7973000" />
-      <workItem from="1616676491592" duration="3681000" />
+      <workItem from="1616676491592" duration="7022000" />
     </task>
     <servers />
   </component>

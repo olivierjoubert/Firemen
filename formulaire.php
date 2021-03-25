@@ -20,19 +20,23 @@ require('head.php')
             }
             ?>
         </h3>
+
         <h3 class="texte-du-formulaire dernière-demande-formulaire à-mettre-en-jaune">Indiquez nous où envoyer les
             secours</h3>
-        <form action="" class="formulaire-de-contact" method="get">
-            <div>
+        <form class="formulaire-de-contact" action="" method="get">
+            <div class="form-cell">
                 <label for="identity">Votre nom :</label>
                 <input type="text" id="identity" name="identity" class="champ" value="" required>
             </div>
-            <div>
+            <div class="form-cell">
                 <label for="address">Votre adresse:</label>
+
                 <input type="text" id="address" name="address" class="champ" value="" required>
+
             </div>
-            <?php
-            if (isset($_GET['id'])) {
+            <div class="form-cell">
+                <?php
+                if (isset($_GET['id'])) {
                 ?>
                 <div>
                     <label class="formulaire-de-contact"
@@ -44,7 +48,8 @@ require('head.php')
                         <option value="action3">JE SUIS EN FEU...</option>
                     </select>
                 </div>
-                <?php
+            </div>
+            <?php
             } else {
                 ?>
                 <div>
