@@ -1,4 +1,4 @@
-
+/* ======   GENERAL ===========  */
 :root{
     --primary-color : #932a2a;
     --secondary-color : #eaea29;
@@ -27,8 +27,15 @@ body{
     flex-direction: column;
 }
 
+a, a:visited{
+    color: var(--color-on-dark);
+    text-decoration: none;
+}
+
 a:hover{
     cursor:pointer;
+    font-size: 1.5em;
+    transition-duration: 0.4s;
 }
 
 .titles{
@@ -36,6 +43,8 @@ a:hover{
 
 }
 
+
+/* ======   MAIN COMPONENTS ===========  */
 
 .whole_page{
     display:flex;
@@ -62,7 +71,6 @@ header{
     padding: 50px;
 }
 
-
 .main-container-index{
     position:relative;
     display: flex;
@@ -74,6 +82,21 @@ header{
     align-items: center;
     padding: 50px;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--footer-height);
+    width: 100%;
+    padding: 28px 45px 33px 53px;
+    background-color: var(--dark-grey-transparent);
+    color:var(--primary-color);
+}
+
+
+/* ======   INDEX CONTENT ===========  */
 
 .main-divs{
     width:auto;
@@ -111,7 +134,6 @@ header{
 
 }
 
-
 #clipped-right {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     transition: transform 1s;
@@ -124,21 +146,7 @@ header{
 }
 
 
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: var(--footer-height);
-    width: 100%;
-    padding: 28px 45px 33px 53px;
-    background-color: var(--dark-grey-transparent);
-    color:var(--primary-color);
-}
-
-
-
+/* ======   HEADER ===========  */
 
 nav{
     display: flex;
@@ -163,12 +171,6 @@ nav{
     background-color: #5f5b5b;
     cursor: pointer;
 }
-
-a, a:visited{
-    color: var(--color-on-dark);
-    text-decoration: none;
-}
-
 
 #menu .a-active{
     background-color: #4a8d08;
@@ -206,13 +208,8 @@ a, a:visited{
     font-family: 'Chango', cursive;
 }
 
-#button_page_01{
-    width: 200px;
-    height: 200px;
-    background-color: bisque; /* à enlever une fois l'image mise en place*/
-}
 
-
+/* ======   FOOTER ===========  */
 
 .left-footer{
     width:50px;
@@ -243,7 +240,7 @@ a, a:visited{
 
 
 
-/* Debut Catalogue ================================= */
+/* ===============   CATALOGUE ================================= */
 
 .catalogue-topbar{
     position:relative;
@@ -288,9 +285,6 @@ a, a:visited{
     padding-top: 15px;
 }
 
-
-
-
 .cards{
     display :flex;
     justify-content: space-around;
@@ -298,7 +292,6 @@ a, a:visited{
     margin-top: 10px;
     align-items: center;
 }
-
 
 .card{
     border-radius: 10px;
@@ -329,7 +322,6 @@ a, a:visited{
     background-repeat: no-repeat;
     margin-left: 50px;
 }
-
 
 .card-noshow{
     display: none;
@@ -373,10 +365,9 @@ a, a:visited{
 
 }
 
-divbutton input{
+.divbutton input{
     margin:10px;
 }
-
 
 .fire-button {
     color: white;
@@ -389,15 +380,16 @@ divbutton input{
     border: solid yellow 1px;
 
 }
+
 .fire-button:hover {
     transform: scale(1.1);
     transition: transition-timing-function: ease-in-out;
     transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 
 }
-.fire-button:active {
-    transform: scale(1);
-}
+
+
+/* ===================== FORMULAIRE =================  */
 
 label{
     padding: 5px;
@@ -420,13 +412,35 @@ select {
     padding: 5px;
     margin: 10px;
 }
-.allTeamMembers{
-    display :flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.carContainer{
+
+.contact-button{
+    background-color: #eaea29;
+    font-size: x-large;
     display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.texte-du-formulaire{
+    margin: 20px;
+}
+
+.dernière-demande-formulaire {
+    margin-bottom: 60px;
+}
+
+
+/* =======================Equipe ============================*/
+.equipe {
+    margin-top: 20px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
 }
 
 .memberCard{
@@ -437,39 +451,97 @@ select {
     height: 300px;
     flex-wrap: wrap;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
+
 .pictureMember{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
 }
+
 .arrow-left{
     display: flex;
     align-items: center;
+    height: 50px;
+    width: 35px;
 }
-.arrow-right{
+
+.arrow-left :hover{
+    cursor: pointer;
+    background-image: url("assets/left-arrow-black.png");
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
 }
 
-.arrow-left img{
+.arrow-right{
+    display: flex;
+    align-items: center;
     height: 50px;
-    width: 36px;
-    margin-right: 5px;
-}
-.arrow-right img{
-    height: 50px;
-    width: 36px;
-    margin-left: 5px;
+    width: 35px;
 }
 
-@media screen and (max-width: 768px){
-    #menu {
+.arrow-right :hover{
+    cursor: pointer;
+    background-image: url("assets/right-arrow-black.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* Debut caserne, initiative ================================= */
+
+.conteneur-flexible-image-et-texte{
+    display: flex;
+}
+
+.element-flexible-image-et-texte{
+    display: flex;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.image-des-pompiers-de-image-et-texte{
+    height: 180px;
+    width: 200px;
+    margin: 20px;
+}
+
+.texte-des-pompiers-de-image-et-texte{
+    margin: 20px;
+}
+
+.titre-des-image-des-pompiers-de-image-et-texte{
+    margin: 20px;
+}
+
+
+
+/* ===============            RESPONSIVE               ================ */
+
+@media screen and (max-width: 768px) {
+    .menu {
         display: none;
     }
-    #burger{
+
+    #burger {
         display: flex;
         justify-content: flex-end;
-        height : 65px;
+        height: 65px;
+    }
+
+    .tagline {
+        text-align: center;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .formulaire-de-contact {
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -1,5 +1,3 @@
-
-
 <footer>
 
         <!--<div class="features-website">
@@ -9,6 +7,7 @@
                 <li><a href="#">Catalogue</a></li>
                 <li><a href="#">Carousel</a></li>
             </ul>
+
         </div>-->
         <div class="left-footer"></div>
 
@@ -18,7 +17,6 @@
             </ul>
 
         <div class="copyright"> © Copyright<br> Ravive ta flamme 2021</div>
+
 </footer>
 <script src="src/menu-burger.js"></script>
-
-
