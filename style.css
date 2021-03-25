@@ -1,4 +1,4 @@
-
+/* ======   GENERAL ===========  */
 :root{
     --primary-color : #932a2a;
     --secondary-color : #eaea29;
@@ -8,6 +8,8 @@
     --dark-grey-transparent : rgba(35,35,35,0.75);
     --font-family : arial;
     --font-size : 1.2em;
+    --header-height : 80px;
+    --footer-height : 50px;
 }
 
 *{
@@ -25,11 +27,21 @@ body{
     flex-direction: column;
 }
 
+a, a:visited{
+    color: var(--color-on-dark);
+    text-decoration: none;
+}
+
 a:hover{
     cursor:pointer;
-    font-size: 1.5em;
-    transition-duration: 0.4s;
 }
+
+.titles{
+    color: var(--secondary-color);
+}
+
+
+/* ======   MAIN COMPONENTS ===========  */
 
 .whole_page{
     display:flex;
@@ -40,19 +52,32 @@ a:hover{
 header{
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: var(--header-height);
     width: 100%;
     background-color: var(--dark-grey);
 }
 
-.main-container{
+.main-container {
     border: solid yellow 3px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.main-container-index{
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     width:100%;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 
 }
 
@@ -61,49 +86,96 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: var(--footer-height);
     width: 100%;
     padding: 28px 45px 33px 53px;
     background-color: var(--dark-grey-transparent);
     color:var(--primary-color);
 }
 
+
+/* ======   INDEX CONTENT ===========  */
+
+.main-divs{
+    width:auto;
+    font-family: 'Chango', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.main-div-left{
+    align-items: flex-end;
+    text-align: end;
+}
+
+#clipped-logo {
+    position: relative;
+    %clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    top: 50%;
+
+}
+
+#clipped-left {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    transition: transform 1s;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#clipped-left:hover {
+    transform: translate(-100px);
+
+}
+
+#clipped-right {
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    transition: transform 1s;
+    margin-top: 10px;
+    width:90%;
+}
+
+#clipped-right:hover {
+    transform: translate(100px);
+}
+
+
+/* ======   HEADER ===========  */
+
+
 nav{
     display: flex;
     justify-content: flex-end;
 }
 
-.menu{
+#menu{
     display : flex;
     height: 100%;
     justify-content: space-around;
     align-items: center;
-    padding:20px;
+    padding:5px;
     list-style: none;
-    border-radius: 5px;
 }
 
-.menu li{
-    margin: 20px 20px;
+#menu li{
+    margin: 10px;
 }
 
-
-
-a, a:visited{
-    color: var(--color-on-dark);
-    text-decoration: none;
-}
-
-
-.menu .a-active{
-    background-color: #4a8d08;
-    border-radius: 5px;
-    cursor: pointer;
+#menu a:hover{
+    cursor:pointer;
+    font-size: 1.5em;
+    transition-duration: 0.4s;
 }
 
 #burger{
     display:none;
     cursor: pointer;
+    margin:25px 10px 10px 10px;
 }
 
 #burger-img{
@@ -121,31 +193,21 @@ a, a:visited{
     background: var(--secondary-color) url("/assets/adoptePompier.png") center / contain no-repeat;
     padding: 20px;
 }
+.logo_container:hover {
+    width: 120px;
+    height: 140px;
+    box-shadow: 10px 5px 5px black;
+}
 
 .tagline{
     position:relative;
-    margin-left:40px;
     align-items:flex-end;
     display:flex;
-    left:140px;
+    left:160px;
     justify-content: flex-end;
-}
+    font-family: 'Chango', cursive;
 
-@media screen and (max-width: 768px){
-    .menu {
-        display: none;
-    }
-    #burger{
-        display: flex;
-        justify-content: flex-end;
-    }
-    .tagline{
-        text-align: center;
-        width: 100px;
-        margin-left:20px;
-    }
 }
-
 
 #button_page_01{
     width: 200px;
@@ -154,6 +216,7 @@ a, a:visited{
 }
 
 
+/* ======   FOOTER ===========  */
 
 .left-footer{
     width:50px;
@@ -184,7 +247,7 @@ a, a:visited{
 
 
 
-/* Debut Catalogue ================================= */
+/* ===============   CATALOGUE ================================= */
 
 .catalogue-topbar{
     position:relative;
@@ -197,6 +260,7 @@ a, a:visited{
 .catalogue-icon{
     height: 40px;
     margin: 0 10px;
+    cursor:pointer;
 }
 
 .catalogue-icons{
@@ -212,25 +276,23 @@ a, a:visited{
     border-color: grey;
     height: 60px;
     width:auto;
-    padding: 0px 30px;
+    padding: 0 30px;
     display:flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 30px;
-}
-
-.form{
-    margin: 0px 30px;
+    margin-right: 15px;
 }
 
 .dispo-form{
     display: flex;
     align-items: center;
-    padding-top: 15px;
 }
 
-
-
+.dispo-form input{
+    margin: 0 10px;
+    border: solid 1px grey;
+    height: 30px;
+}
 
 .cards{
     display :flex;
@@ -239,7 +301,6 @@ a, a:visited{
     margin-top: 10px;
     align-items: center;
 }
-
 
 .card{
     border-radius: 10px;
@@ -270,7 +331,6 @@ a, a:visited{
     background-repeat: no-repeat;
     margin-left: 50px;
 }
-
 
 .card-noshow{
     display: none;
@@ -314,10 +374,9 @@ a, a:visited{
 
 }
 
-divbutton input{
+.divbutton input{
     margin:10px;
 }
-
 
 .fire-button {
     color: white;
@@ -330,17 +389,18 @@ divbutton input{
     border: solid yellow 1px;
 
 }
+
 .fire-button:hover {
     transform: scale(1.1);
-    transition: transition-timing-function: ease-in-out;
+    transition: transition-timing-function ease-in-out;
     transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 
 }
-.fire-button:active {
-    transform: scale(1);
-}
 
-label{
+
+/* ===================== FORMULAIRE =================  */
+
+.form-cell label{
     padding: 5px;
     margin: 10px;
 }
@@ -352,7 +412,7 @@ label{
     width: 250px;
 }
 
-formulaire input{
+.form-cell input{
     margin-left: 300px;
     margin-top: 40px;
 }
@@ -361,7 +421,28 @@ select {
     padding: 5px;
     margin: 10px;
 }
-/*Equipe*/
+
+.contact-button{
+    background-color: #eaea29;
+    font-size: x-large;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.texte-du-formulaire{
+    margin: 20px;
+}
+
+.dernière-demande-formulaire {
+    margin-bottom: 60px;
+}
+
+
+
+
+/* =======================Equipe ============================*/
 .equipe {
     margin-top: 20px;
 }
@@ -384,11 +465,13 @@ select {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .pictureMember{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
 }
+
 .arrow-left{
     display: flex;
     align-items: center;
@@ -426,6 +509,7 @@ select {
 .conteneur-flexible-image-et-texte{
     display: flex;
 }
+
 .element-flexible-image-et-texte{
     display: flex;
     font-size: 18px;
@@ -437,6 +521,7 @@ select {
     width: 200px;
     margin: 20px;
 }
+
 .texte-des-pompiers-de-image-et-texte{
     margin: 20px;
 }
@@ -445,29 +530,62 @@ select {
     margin: 20px;
 }
 
-/* Debut formulaire ================================= */
-
-.formulaire-de-contact{
-    display: flex;
-    flex-direction: column ;
-}
-
 .contact-button{
-    background-color: #eaea29;
+    background-color: var(--secondary-color);
     font-size: x-large;
     display: flex;
     position: relative;
     justify-content: center;
     margin-left: 300px;
+    margin-top: 40px;
 }
 
-.texte-du-formulaire{
-    margin: 20px;
+
+/* ===============            RESPONSIVE               ================ */
+
+@media screen and (max-width: 768px) {
+
+    #menu {
+        display: none;
+        font-size: 14px;
+    }
+
+
+    .dernière-demande-formulaire {
+        margin-bottom: 60px;
+    }
+
+    .à-mettre-en-jaune {
+        color: var(--secondary-color);
+    }
+
+    .image-de-page-succes {
+        border-color: var(--secondary-color);
+        border-width: 3px;
+        border-radius: 30px;
+    }
+
+    #burger {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .tagline {
+        text-align: center;
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .formulaire-de-contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_container{
+        left:20px;
+    }
 }
 
-.dernière-demande-formulaire {
-    margin-bottom: 60px;
-}
 .caserne{
     height: 310px;
 }

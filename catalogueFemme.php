@@ -9,15 +9,14 @@
     <div class ="main-container">
         <div class="catalogue-topbar">
             <div class="dispo">
-                <label for="start">Besoin de compagnie pour quand ? : </label>
+                <label for="start">Besoin de compagnie<br> pour quand ? : </label>
                 <form class="dispo-form">
-                    <i class="fas fa-ad"></i>
                     <input type="date" id="dispo-calendar" class="dispo-calendar form" name="dispo-calendar">
-                    <input type="button" class ="form" value="Soumettre" onclick="date()">
+                    <input type="button" class ="form" value="  Soumettre  " onclick="date()">
                 </form>
             </div>
         </div>
-        <div class="catalogue-icons">git st
+        <div class="catalogue-icons">
             <div><img  id="to-carou" class="catalogue-icon" src="assets/carousel.png" alt="Carousel"></div>
             <div><img  id="to-mosaic" class="catalogue-icon" src="assets/mosaic.png" alt="Mosaic"></div>
             <div><a href="catalogue.php"><img class="catalogue-icon" src="assets/icon_man2.png" alt="womanButton"></a></div>
