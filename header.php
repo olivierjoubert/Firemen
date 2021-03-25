@@ -20,4 +20,5 @@
             <img id="burger-img" src="assets/burger.svg" alt="burger"/>
         </div>
     </nav>
+    <script src="src/catalogue.js"></script>
 </header>
