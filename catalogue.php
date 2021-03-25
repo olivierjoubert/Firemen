@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-<?php require('head.php') ?>
-<?php require('assets/firefighters.php') ?>
+
+<?php
+$titlePage = 'Adoptez nos pompiers';
+require('head.php');
+require('assets/firefighters.php'); ?>
 <body>
 <div class="whole_page">
 

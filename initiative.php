@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <?php
+$titlePage = 'L\' initiative Adopte un Pompier';
 require('head.php')
 ?>
 <html lang="fr">

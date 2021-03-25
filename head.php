@@ -4,6 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Fireman</title>
+    <title><?php echo $titlePage; ?></title>
 </head>
 

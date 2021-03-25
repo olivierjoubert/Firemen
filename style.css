@@ -315,6 +315,37 @@ nav{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.arrow-left{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 35px;
+}
+
+.arrow-left :hover{
+    cursor: pointer;
+    background-image: url("assets/left-arrow-black.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-right{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 35px;
+}
+
+.arrow-right :hover{
+    cursor: pointer;
+    background-image: url("assets/right-arrow-black.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+
 .carou-left{
     width: 36px;
     height:50px;
@@ -501,6 +532,7 @@ select {
     border-top-right-radius: 10px;
     width: 100%;
 }
+
 
 
 

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <?php
+$titlePage = 'Notre Projet';
 require('head.php')
 ?>
 <body>

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-<?php require('head.php') ?>
-<?php require('assets/nurses.php') ?>
+
+<?php
+$titlePage = 'Nos infirmières en bonus';
+require('head.php');
+require('assets/nurses.php'); ?>
 <body>
     <div class="whole_page">
 
