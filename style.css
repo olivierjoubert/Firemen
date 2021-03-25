@@ -313,6 +313,7 @@ nav{
     display: flex;
     flex-direction: column;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: rotate(720deg);
 }
 
 .arrow-left{
@@ -395,6 +396,7 @@ nav{
 
 .card-noshow{
     display: none;
+    transition-duration: 0.4s;
 }
 
 .card-img{
