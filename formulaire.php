@@ -56,7 +56,7 @@ require('head.php')
                 <div>
                     <label class="formulaire-de-contact" for="action">De quoi s'agit-il?</label>
                     <select class="formulaire-de-contact" name="action" id="action">
-                        <option value="action1">SUICIDE IMMINENT</option>
+                        <option value="action1">INCENDIE</option>
                         <option value="action2">URGENCE VITALE</option>
                     </select>
                 </div>
