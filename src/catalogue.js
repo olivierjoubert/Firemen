@@ -15,6 +15,7 @@ toCarou.addEventListener('click', function(event){
 
 toMosaic.addEventListener('click', function(event){
     mosaicInit();
+
 })
 
 leftButton.addEventListener('click', function(event){
