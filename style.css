@@ -586,6 +586,28 @@ select {
     }
 }
 
+/* ===================== Project =================  */
+.titre-caserne{
+    margin-bottom: 20px;
+}
+
 .caserne{
     height: 310px;
+    border-radius: 15px;
+}
+.img-projet{
+    display: flex;
+}
+.down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-down{
+    height: 70px;
+    width: 70px;
+}
+.text-project{
+    text-align: center;
 }
