@@ -51,7 +51,7 @@ header{
     flex-grow: 1;
     justify-content: center;
     align-items: center;
-    overflow: auto;
+
 }
 
 footer {
@@ -140,7 +140,7 @@ a, a:visited{
 
 
 @media screen and (max-width: 768px){
-    #menu {
+    .menu {
         display: none;
     }
     #burger{
@@ -148,11 +148,7 @@ a, a:visited{
         justify-content: flex-end;
     }
 }
-/*.left-land{*/
-/*    background-image: ;*/
-/*}*/
 
-/*.right-land{}*/
 
 #button_page_01{
     width: 200px;
@@ -194,15 +190,23 @@ a, a:visited{
 /* Debut Catalogue ================================= */
 
 .catalogue-topbar{
+    position:relative;
     display: flex;
+    top:-30px;
     flex-flow: row nowrap;
-    border: solid 2px grey;
     align-items: center;
 }
 
-.catalogue-icons{
+.catalogue-icon{
     height: 40px;
-    margin: 10px;
+    margin: 0 10px;
+}
+
+.catalogue-icons{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .dispo{
@@ -210,6 +214,7 @@ a, a:visited{
     background-color: white;
     border-color: grey;
     height: 60px;
+    width:auto;
     padding: 0px 30px;
     display:flex;
     align-items: center;
@@ -289,7 +294,7 @@ a, a:visited{
     font-size: 12px;
 }
 
-.Fireman-name{
+.people-name{
     font-weight: bold;
     font-size: 14px;
 }
@@ -308,26 +313,35 @@ a, a:visited{
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+
 }
+
+divbutton input{
+    margin:10px;
+}
+
 
 .fire-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    background: darkred;
     color: white;
-    font-size: large;
-    border-radius: 999px;
-}
+    font-weight: bold;
+    border-radius:50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    background-color: var(--primary-color);
+    border: solid yellow 1px;
 
+}
 .fire-button:hover {
-    background-color: rgba(255, 0, 0, 1);
-    cursor: pointer;
-}
+    transform: scale(1.1);
+    transition: transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 
+}
+.fire-button:active {
+    transform: scale(1);
+}
 
 label{
     padding: 5px;
@@ -341,7 +355,7 @@ label{
     width: 250px;
 }
 
-input{
+formulaire input{
     margin-left: 300px;
     margin-top: 40px;
 }
@@ -409,3 +423,51 @@ select {
 }
 
 
+
+/* Debut caserne, initiative ================================= */
+
+.conteneur-flexible-image-et-texte{
+    display: flex;
+}
+.element-flexible-image-et-texte{
+    display: flex;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.image-des-pompiers-de-image-et-texte{
+    height: 180px;
+    width: 200px;
+    margin: 20px;
+}
+.texte-des-pompiers-de-image-et-texte{
+    margin: 20px;
+}
+
+.titre-des-image-des-pompiers-de-image-et-texte{
+    margin: 20px;
+}
+
+/* Debut formulaire ================================= */
+
+.formulaire-de-contact{
+    display: flex;
+    flex-direction: column ;
+}
+
+.contact-button{
+    background-color: #eaea29;
+    font-size: x-large;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+.texte-du-formulaire{
+    margin: 20px;
+}
+
+.dernière-demande-formulaire {
+    margin-bottom: 60px;
+}
