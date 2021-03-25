@@ -350,12 +350,12 @@ select {
     padding: 5px;
     margin: 10px;
 }
-/*.allTeamMembers{
-    display :flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}*/
-.carContainer{
+/*Equipe*/
+.equipe {
+    margin-top: 20px;
+}
+
+.card-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,6 +370,8 @@ select {
     height: 300px;
     flex-wrap: wrap;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 .pictureMember{
     border-top-left-radius: 10px;
@@ -405,4 +407,5 @@ select {
     display: flex;
     align-items: center;
 }
+
 
