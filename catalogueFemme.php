@@ -17,7 +17,7 @@
                 </form>
             </div>
         </div>
-        <div class="catalogue-icons">
+        <div class="catalogue-icons">git st
             <div><img  id="to-carou" class="catalogue-icon" src="assets/carousel.png" alt="Carousel"></div>
             <div><img  id="to-mosaic" class="catalogue-icon" src="assets/mosaic.png" alt="Mosaic"></div>
             <div><a href="catalogue.php"><img class="catalogue-icon" src="assets/icon_man2.png" alt="womanButton"></a></div>
