@@ -88,7 +88,7 @@ footer {
     align-items: center;
     height: var(--footer-height);
     width: 100%;
-    padding: 28px 45px 33px 53px;
+    padding: 20px 20px 20px 20px;
     background-color: var(--dark-grey-transparent);
     color:var(--primary-color);
 }
@@ -229,8 +229,8 @@ nav{
     text-transform: uppercase;
     align-items: center;
     overflow: hidden;
-    height: 25px;
-    width: 30%;
+    height: 60px;
+
 }
 
 .footer-link{
@@ -628,8 +628,12 @@ select {
 @media screen and (max-width: 768px) {
 
     #menu {
-        display: none;
+        flex-direction: column;
         font-size: 14px;
+    }
+
+    #menu li {
+        margin: 5px;
     }
 
 
@@ -653,9 +657,6 @@ select {
     }
 
     .tagline {
-        text-align: center;
-        width: 100px;
-        margin-left: 20px;
         display: none;
     }
 
@@ -667,6 +668,7 @@ select {
     .logo_container{
         left:20px;
     }
+
     #clipped-left{
         width: 125px;
         height: 83px;
@@ -675,19 +677,26 @@ select {
         width: 125px;
         height: 83px;
     }
+
     .titles{
         font-size: 0.9em;
     }
-    .footer-links{
-        justify-content: flex-start;
-        padding: 3px;
-    }
+
     .left-footer{
         display: none;
     }
-    .lien-footer{
-        font-size: 0.4em;
+
+    .footer-links{
+        justify-content: flex-start;
     }
+
+    .footer-link{
+        padding: 0px;
+        font-size : 15px;
+    }
+
+
+
 }
 
 
