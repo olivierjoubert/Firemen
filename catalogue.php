@@ -1,57 +1,70 @@
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<!DOCTYPE html>
+<html lang="fr">
 
-
-<?php $ourFireFighters = [
-    ['id' => 1, 'name' => 'Jean Castex', 'age' => 31, 'picture' => 'https://images.lanouvellerepublique.fr/image/upload/t_1020w/5d1229021f1a90fe7f8b4580.jpg', 'bio' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet interdum risus, tempus fermentum turpis. Suspendisse potenti. Fusce vestibulum feugiat dui, in condimentum sapien eleifend sed. Nunc aliquam odio ac porttitor gravida. Curabitur id neque ac nibh tempor vulputate. Donec egestas arcu nec semper convallis. ', 'specialities' => ['Bon cuisinier','Capitaine','Présentation soignée',]],
-    ['id' => 2, 'name' => 'Teddy Riner', 'age' => 29, 'picture' => 'https://images.lanouvellerepublique.fr/image/upload/t_1020w/5d1229021f1a90fe7f8b4580.jpg', 'bio' => 'lorum...', 'specialities' => ['Maitre des arts martiaux','Junior','Tolérance approfondie',]],
-    ['id' => 3, 'name' => 'Mikel Arteta', 'age' => 36, 'picture' => 'https://images.lanouvellerepublique.fr/image/upload/t_1020w/5d1229021f1a90fe7f8b4580.jpg', 'bio' => 'lorum...', 'specialities' => ['Agilité acrue','Monté de corde top niveau','Egaux surdimensionné',]],
-    ['id' => 4, 'name' => 'Mike Horn', 'age' => 45, 'picture' => 'https://images.lanouvellerepublique.fr/image/upload/t_1020w/5d1229021f1a90fe7f8b4580.jpg', 'bio' => 'lorum...', 'specialities' => ['Sens du devoir','Adaptation en milieu hostile développée','Généreux',]],
-    ['id' => 5, 'name' => 'Jim Carrey', 'age' => 52, 'picture' => 'https://images.lanouvellerepublique.fr/image/upload/t_1020w/5d1229021f1a90fe7f8b4580.jpg', 'bio' => 'lorum...', 'specialities' => ['Autodérision','Serviable','Jeux de rôle',]],
-];
-
-?>
-
-
+<?php
+$titlePage = 'Adoptez nos pompiers';
+require('head.php');
+require('assets/firefighters.php'); ?>
 <body>
-<div class ="catalogue-container">
-<div class="dispo">
-    <label for="start">Besoin d'un pompier pour quand ? : </label>
-    <form class="dispo-form">
-        <input type="date" id="dispo-calendar" class="dispo-calendar form" name="dispo-calendar">
-        <input type="button" class ="form" value="Soumettre" onclick="date()">
-    </form>
-</div>
+<div class="whole_page">
 
-<div class = "cards">
-    <?php foreach ($ourFireFighters as $fireFighter) : ?>
-    <div class="card" id="<?= $fireFighter['id'] ?>">
+    <?php require ('header.php') ?>
+    <div class ="main-container">
+        <div class="catalogue-topbar">
+            <div class="dispo">
+                <label for="start">Besoin de compagnie<br> pour quand ? : </label>
+                <form class="dispo-form">
+                    <input type="date" id="dispo-calendar" class="dispo-calendar form" name="dispo-calendar">
+                    <input type="button" class ="form" value="  Soumettre  " onclick="date()">
+                </form>
+            </div>
+        </div>
+        <div class="catalogue-icons">
+            <div><img  id="to-carou" class="catalogue-icon" src="assets/carousel.png" alt="Carousel"></div>
+            <div><img  id="to-mosaic" class="catalogue-icon" src="assets/mosaic.png" alt="Mosaic"></div>
+            <div><a href="catalogueFemme.php"><img class="catalogue-icon" src="assets/icon_woman2.png" alt="womanButton"></a></div>
+        </div>
 
-        <div class="card-img" style="background-image: url('<?= $fireFighter['picture'] ?> ');">
+
+        <div class = "cards">
+            <div class="carou-left arrow-left">
+                <img src="assets/left-arrow-transparent.png" alt="Arrow Left" />
+            </div>
+
+            <?php foreach ($peoples as $people) : ?>
+                <div class="card-noshow people" id="people<?= $people['id'] ?>">
+
+                    <div class="card-img" style="background-image: url('<?= $people['picture'] ?> ');">
+                    </div>
+
+                    <div class="card-body">
+                            <span class="people-name"><?= $people['name'] . '</span>, ' . $people['age'] . ' ans'; ?>
+                             <ul class="card-spec">
+                                <?php foreach ($people['specialities'] as $speciality) {
+                                    echo '<li>' . $speciality . '</li>';}
+                                ?>
+                            </ul>
+                            <span class="people-name">Bio : </span><?= $people['bio']; ?>
+                                <div class="divbutton">
+                                    <form method="get" action="formulaire.php">
+                                    <input type="hidden" name="id" value="<?= $people['name'] ?>">
+                                    <input type="hidden" name="id2" value="<?= $people['picture'] ?>">
+                                        <button class="fire-button">Réservez moi</button>
+                                    </form>
+                                </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+            <div class="carou-right arrow-right">
+                <img src="assets/right-arrow-transparent.png" alt="arrow right"/>
+            </div>
         </div>
-        <div class="card-title">
-            <span class="Fireman-name"><?= $fireFighter['name'] . '</span>, ' . $fireFighter['age'] . ' ans'; ?>
-        </div>
-        <div class="card-spec">
-            <ul>
-            <?php foreach ($fireFighter['specialities'] as $speciality) {
-                echo '<li>' . $speciality . '</li>';}
-            ?>
-            </ul>
-        </div>
-        <div class="card-desc">
-            <span class="Fireman-name">Bio </span><?= $fireFighter['bio']; ?>
-        </div>
+
     </div>
-    <?php endforeach; ?>
-</div>
+    <?php require('footer.php') ?>
 
 
+    <script src="src/catalogue.js"></script>
 </div>
-<script src="catalogue.js"></script>
 </body>
+</html>

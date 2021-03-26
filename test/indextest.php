@@ -2,20 +2,20 @@
 <html lang="fr">
 <?php
 $titlePage = 'La caserne de Stalingrad';
-require 'head.php';
+require '../head.php';
 ?>
 
 <body>
 <div class="whole_page">
     <?php
-    require('header.php')
+    require('../header.php')
     ?>
     <div class="main-container-index">
 
         <div class="main-divs main-div-left">
             <a href="formulaire.php">
-            <p class="titles">Une urgence ?</p>
-            <img id="clipped-left" src="https://cdn.pixabay.com/photo/2020/03/08/22/44/fire-4913958_960_720.jpg" alt="">
+                <p class="titles">Une urgence ?</p>
+                <img id="clipped-left" src="https://cdn.pixabay.com/photo/2020/03/08/22/44/fire-4913958_960_720.jpg" alt="">
             </a>
         </div>
         <div class="div-logo">
@@ -30,7 +30,7 @@ require 'head.php';
 
     </div>
 
-    <?php require('footer.php') ?>
+    <?php require('../footer.php') ?>
 </div>
 </body>
 </html>
