@@ -48,6 +48,7 @@ require('assets/nurses.php'); ?>
                                     <div class="divbutton">
                                         <form method="get" action="formulaire.php">
                                        <input type="hidden" name="id" value="<?= $people['name'] ?>">
+                                            <input type="hidden" name="id2" value="<?= $people['picture'] ?>">
                                               <button class="fire-button">Réservez moi</button>
                                         </form>
                                     </div>
